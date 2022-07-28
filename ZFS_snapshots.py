@@ -26,11 +26,11 @@ def get_args():
 
 	usage = """
 	Usage:
-		try.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --create
-		try.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --remove	
-		try.py -s <STORAGE> -fs <FILESYSTEM> --list		
-		try.py --version
-		try.py -h | --help
+		ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --create
+		ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --remove	
+		ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> --list		
+		ZFS_snapshots.py --version
+		ZFS_snapshots.py -h | --help
 
 	Options:
 		-h --help            Show this message and exit
