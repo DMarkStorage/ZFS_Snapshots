@@ -23,16 +23,16 @@ Check [install docopt](https://pypi.org/project/docopt/) for more information
 
 
 1. Creating a snapshot
-    ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --create
+    #### ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --create
 
 2. Remove a snapshot
-    ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --remove	
+    #### ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> -sp <SNAPSHOT> --remove	
 
 3. GET a list of all snapshots
-    ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> --list		
+    #### ZFS_snapshots.py -s <STORAGE> -fs <FILESYSTEM> --list		
 
 4. HELP
-    ZFS_snapshots.py -h | --help
+    #### ZFS_snapshots.py -h | --help
 
 
 ## Release Instructions
