@@ -35,7 +35,7 @@ ZFS_snapshots.py -s [STORAGE] -fs [FILESYSTEM] -sp [SNAPSHOT] --remove
 
 3. GET a list of all snapshots
 ```bash
-#### ZFS_snapshots.py -s <STORAGE> -fs [FILESYSTEM] --list
+ZFS_snapshots.py -s [STORAGE] -fs [FILESYSTEM] --list
 ```
     		
 
@@ -43,6 +43,10 @@ ZFS_snapshots.py -s [STORAGE] -fs [FILESYSTEM] -sp [SNAPSHOT] --remove
 ```
 ZFS_snapshots.py -h | --help
 ```
+
+- [STORAGE] => name of your storage
+- [FILESYSTEM] => name of your filesystem
+- [SNAPSHOT] => name of the snapshot
 
 
 ## Release Instructions
